@@ -12,6 +12,6 @@ export async function handleAuth() {
   }
 
   await signIn("google", {
-    redirectTo: "dashboard",
+    redirectTo: "/dashboard",
   });
 }
