@@ -12,6 +12,7 @@ export async function POST(req: NextRequest) {
 
   const metadata = {
     testId,
+    price,
   };
 
   // esse objeto pode ser mandado junto na criação da sessão de checkout, dessa forma, quando
