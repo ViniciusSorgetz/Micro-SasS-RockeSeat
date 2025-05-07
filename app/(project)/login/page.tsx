@@ -1,4 +1,4 @@
-import { handleAuth } from "@/app/actions/handleAuth";
+import { handleAuth } from "@/actions/handleAuth";
 
 export default function Login() {
   return (
